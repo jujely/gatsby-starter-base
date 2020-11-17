@@ -3,8 +3,8 @@ require(`dotenv`).config()
 module.exports = {
   siteMetadata: {
     title: "ujely",
-    description: "Starter for Reflex.",
-    siteUrl: process.env.SITE_URL || "http://localhost:8000",
+    description: ">>>.",
+    siteUrl: process.env.SITE_URL || "http://ujely.com",
   },
   plugins: [
     "@reflexjs/gatsby-theme-base",
