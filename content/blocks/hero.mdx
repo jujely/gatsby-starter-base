@@ -1,29 +1,27 @@
-<Section py="8|12|16|24">
+<Section pt="8|12|16|24" backgroundImage="avatar">
   <Container>
-    <Grid col="1|2" gap="8|12|16" alignItems="center">
-      <Image
-        src="placeholder.jpg"
-        colStart="null|2"
-        w="full"
-        rounded="lg"
-        overflow="hidden"
-      />
-      <Flexbox
-        flexDirection="column"
-        alignItems="center|flex-start"
-        textAlign="center|left"
-      >
-        <H1 m="0" fontWeight="extrabold" lineHeight="tight">
-          Supercharge your site.
-        </H1>
-        <P fontSize="xl|2xl" mt="2">
-          Build a blazing fast site with Gatsby and Reflex.
-        </P>
-        <ButtonLink href="#" variant="primary">
-          Get Started
-          <Icon name="arrow-right" ml="4" />
-        </ButtonLink>
-      </Flexbox>
-    </Grid>
+    <Flexbox flexDirection="column" textAlign="center">
+      <H1 fontSize="5xl" m="0" fontWeight="extrabold" lineHeight="tight">
+      ultra performance web architecture to outperform the rest
+      </H1>
+      <P fontSize="xl|2xl" mt="2">
+      Don't get left in the dust with ancient web tech. 
+      </P>
+      <Grid col="2" gap="4">
+        <Button as="a" href="#" variant="primary">
+          Get started
+        </Button>
+        <Button as="a" href="#" variant="link">
+          Learn more <Icon name="arrow-right" ml="4" />
+        </Button>
+      </Grid>
+    </Flexbox>
+    <Image
+      src="placeholder.jpg"
+      h="40|56|80"
+      mt="12|14|16"
+      roundedTop="xl"
+      overflow="hidden"
+    />
   </Container>
 </Section>

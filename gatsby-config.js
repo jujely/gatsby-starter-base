@@ -3,7 +3,7 @@ require(`dotenv`).config()
 module.exports = {
   siteMetadata: {
     title: "ujely",
-    description: "Starter for Reflex.",
+    description: "Technology consulting & project management",
     siteUrl: process.env.SITE_URL || "http://localhost:8000",
   },
   plugins: [
@@ -12,6 +12,11 @@ module.exports = {
     {
       resolve: "@reflexjs/gatsby-plugin-metatags",
       options: {
+        global: {
+          title: "ujely",
+          description: "Technology Consulting & Project Mangement.",
+          image: "default.jpg",
+        },
         types: [`Page`, `Post`],
       },
     },
